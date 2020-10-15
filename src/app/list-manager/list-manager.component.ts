@@ -6,6 +6,9 @@ import { TodoListService } from '../services/todo-list.service';
   selector: 'app-list-manager',
   template: `
     <div class="todo-app">
+    <h3>
+      What do I need to do today?
+    </h3>
       <app-input-button-unit (submit)="addItem($event)"></app-input-button-unit>
 
       <ul>
