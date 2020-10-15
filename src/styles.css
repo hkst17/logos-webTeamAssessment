@@ -21,11 +21,11 @@ ol, ul {
 .btn {
   background: rgb(122, 175, 255);
   color: #fff;
-  padding: 3px 10px;
-  margin: 0 0 0 3px;
+  padding: 0px 20px;
+  margin: 0 0 0 10px;
   border: none;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 24px;
   cursor: pointer;
   vertical-align: bottom;
@@ -45,7 +45,7 @@ ol, ul {
 
 .app-title {
   font-size: 52px;
-  line-height: 52px;
+  line-height: 30px;
   margin-bottom: 30px;
   font-weight: bold;
   text-align: center;

@@ -13,7 +13,7 @@ import { TodoItem } from './../interfaces/todo-item';
       </span>
 
       <button class="btn btn-red" (click)="removeItem()">
-        remove
+        Remove
       </button>
     </div>
   `,
