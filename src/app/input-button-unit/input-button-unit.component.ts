@@ -29,7 +29,7 @@ export class InputButtonUnitComponent implements OnInit {
 
   submitValue(newTitle: string) {
     this.submit.emit(newTitle); 
-    if( this.title != null ){
+    if( this.title != null ){     //makes text box empty whenever you press save
       this.title = null;
     }  
     else{
