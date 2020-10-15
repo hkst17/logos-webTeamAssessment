@@ -19,14 +19,22 @@ export class InputButtonUnitComponent implements OnInit {
 
   @Output() submit: EventEmitter<string> = new EventEmitter();
 
-  title = 'Type Here!';
+  title = null; // What the Text Box initially says
 
   constructor() { }
 
   ngOnInit() {
+
   }
 
   submitValue(newTitle: string) {
-    this.submit.emit(newTitle);
+    this.submit.emit(newTitle); 
+    if( this.title != null ){
+      this.title = null;
+    }  
+    else{
+      this.title = '';
+    }
   }
+  
 }
